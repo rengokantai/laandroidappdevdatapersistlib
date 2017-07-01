@@ -8,3 +8,12 @@ final class RecipeContract
   public
 }
 ```
+
+## 5. Realm Beyond the Basics
+```
+public class User extends RealmObject{
+  private String name;
+  private RealmList<Email> emailAddresses;
+}
+```
+
